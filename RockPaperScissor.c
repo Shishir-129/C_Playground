@@ -43,6 +43,7 @@ int main()
     else
     comp='s';
 
+    printf("Welcome to Rock-Paper-Scissors !\n\n");
     printf("Enter 'r' for rock, 'p' for paper, 's' for scissor :");
     scanf("%c",&you);
     result=rps(you,comp);
